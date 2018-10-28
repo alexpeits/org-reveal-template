@@ -1,0 +1,35 @@
+#+TITLE: This is the title
+#+OPTIONS: toc:nil num:nil reveal_progress:t reveal_history:t reveal_title_slide:"<h1>%t</h1><br><h3>This&nbsp;is&nbsp;the&nbsp;subtitle</h3>"
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: beige
+#+REVEAL_EXTRA_CSS: ./static/custom.css
+#+REVEAL_ROOT: ./static/reveal.js
+#+REVEAL_PLUGINS: (highlight classList markdown zoom notes)
+#+REVEAL_HIGHLIGHT_CSS: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css
+
+* Section
+** subsection
+
+#+BEGIN_SRC haskell
+data Here = Goes | Some | Code
+#+END_SRC
+
+#+REVEAL: split
+
+#+BEGIN_EXAMPLE python
+Some example
+#+END_EXAMPLE
+
+* Other section
+** other subsection
+
+bla bla bla
+
+** this will be in the same section
+   
+yada yada
+
+
+# Local Variables:
+# org-hide-emphasis-markers: t
+# End:
